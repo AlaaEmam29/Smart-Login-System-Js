@@ -1,0 +1,75 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body
+{
+    font-family: "Akkurat-Light",Helvetica,Arial,"Lucida Grande",sans-serif;
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a,a:hover
+{
+    color: #719947;
+}
+p
+{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.done-msg
+{
+    font-weight: lighter;
+    font-size: 1rem;
+
+}
+.btn-green,.bg-success
+{
+    background-color: #719947 !important;
+    border-color: #719947 !important;
+    color: #fff !important;
+}
+.system-form
+{
+    width: 30%;
+    background-color: #c0c2c336;
+    border-radius: 5px;
+
+}
+.input-group-text
+{
+    background-color: #719947;
+    border-color: #719947;
+    color: #fff;
+
+}
+@media screen and (max-width :575.98px)
+{
+
+}
+
+@media screen and (min-width :576px) and (max-width :767.98px)
+{
+
+}
+@media screen and (min-width :768px) and (max-width :991.98px)
+{
+
+}
+@media screen and (min-width :992px) and (max-width :1199.98px)
+{
+
+}

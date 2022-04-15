@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/login.jpg">
+
+    <title>Smart Login System</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="login-page py-5">
+    <div class="container py-5  d-flex  justify-content-center flex-column align-items-center text-center  h-100 text-white">
+        <div class="system-form py-5 px-4 mt-5">
+            <h1>Login</h1>
+            <div class="input-group mt-5 ">
+                <span class="input-group-text" style="font-family:Arial, FontAwesome">&#xf0e0;</span>
+                <input type="email"
+                       class="form-control login-input"
+                       placeholder="Your Email"
+                       autocomplete="off"
+                       id="emailLoginInput"
+                       required
+                />
+
+            </div>
+            <div class="input-group mb-4 mt-4">
+                <span class="input-group-text" style="font-family: Arial, FontAwesome">&#xf023;</span>
+                <input type="Password"
+                       class="form-control login-input"
+                       placeholder="Your Password"
+                       autocomplete="off"
+                       id="passwordLoginInput"
+                       required
+                >
+
+            </div>
+            <div id="msgAlert" class="text-center text-danger d-none mb-2">
+
+            </div>
+            <div class="w-100">
+                <button   id="logInBtn"   class="btn btn-green w-100">Log In </button>
+            </div>
+        </div>
+        <div class="msg-page pt-3 ">
+            <p> Don't Have Account? <a href="signup.html" class="text-decoration-none">Sign Up Now!</a>
+            </p>
+        </div>
+    </div>
+
+
+</section>
+
+
+<script  src="js/main.js"></script>
+</body>
+</html>
